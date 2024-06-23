@@ -1,0 +1,35 @@
+.follow-us-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #188351;
+  padding: 10px;
+}
+
+.follow-us-container .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .follow-us-container .social-icons a {
+    color: inherit;
+    font-size: 2rem;
+    transition: color 0.3s;
+  }
+  
+  .follow-us-container .social-icons a:hover {
+    color: #0073b1; /* Change this to the color you want on hover */
+  }
+  .yellow-line{
+    width: 100%;
+  }
+  .follow-us{
+    display: flex;
+    flex-direction: column;
+  }
+  .follow-us h4{
+    color: yellow;
+    font-size: 25px;
+    margin: 0px;
+  }
